@@ -6,7 +6,8 @@ task:
   install_script: >
     pkg install -y cmake ninja pkgconf
     graphics/png graphics/webp graphics/tiff graphics/libheif graphics/libavif
-    graphics/libimagequant print/freetype2 x11-fonts/fontconfig print/libraqm
+    graphics/libimagequant print/freetype2 x11/libXpm x11-fonts/fontconfig
+    print/libraqm
   script: |
       mkdir build
       cd build
